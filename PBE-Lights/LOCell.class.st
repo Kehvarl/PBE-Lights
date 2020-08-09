@@ -24,3 +24,13 @@ LOCell >> initialize [
 	self useSquareCorners .
 	self turnOff.
 ]
+
+{ #category : #accessing }
+LOCell >> mouseAction: aBlockClosure [ 
+	mouseAction := aBlockClosure
+]
+
+{ #category : #'event handling' }
+LOCell >> mouseUp: anEvent [
+	mouseAction value.
+]

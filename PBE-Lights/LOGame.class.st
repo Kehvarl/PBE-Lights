@@ -1,6 +1,3 @@
-"
-I represent the LOGame playing field which will hold LOCells.
-"
 Class {
 	#name : #LOGame,
 	#superclass : #BorderedMorph,

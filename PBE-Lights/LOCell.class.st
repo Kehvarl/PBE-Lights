@@ -1,9 +1,3 @@
-"
-I represent a Cell for Lights-Out
-
-I am either On or Off and when toggled switch the 4 orthoganal Cells.
-
-"
 Class {
 	#name : #LOCell,
 	#superclass : #SimpleSwitchMorph,
